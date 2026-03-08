@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>Vocard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>歌牌游戏</h2>
+
+<div id="topbar">
+<div id="score">Score: 0</div>
+<div id="timer">Time: 5</div>
+</div>
+
+<div id="card-grid"></div>
+
+<div class="controls">
+<button id="startBtn">开始</button>
+<button id="passBtn" style="display:none;">过牌</button>
+<button id="nextBtn" style="display:none;">下一题</button>
+</div>
+
+<div id="result"></div>
+
+<audio id="player"></audio>
+
+<!-- 教程 -->
+<div id="tutorial">
+
+<div id="tutorialText"></div>
+
+<div class="tutorialButtons">
+<button id="tutorialNext">下一步</button>
+<button id="skipBtn">跳过讲解</button>
+</div>
+
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
