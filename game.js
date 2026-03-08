@@ -1,5 +1,5 @@
 let score = 0
-let timer = 5
+let timer = 7
 let countdown = null
 let waitingNext = false
 
@@ -227,7 +227,7 @@ function nextRound(){
     selectSong()
     
     // 重置倒计时显示
-    timer = 10
+    timer = 7
     timerLabel.innerText = "Time: "+timer
     
     if(typeof currentSong === "number"){
